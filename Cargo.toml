@@ -1,0 +1,27 @@
+[package]
+name = "cargo-perspective"
+version = "0.1.0"
+edition = "2024"
+authors = ["CryptoPatrick <cryptopatrick@gmail.com>"]
+
+###############################################################################
+description = "A small ut"
+documentation = "https://docs.rs/cargo-perspective"
+homepage = "https://github.com/cryptopatrick/cargo-perspective"
+repository = "https://github.com/cryptopatrick/cargo-perspective"
+readme = "README.md"
+keywords = ["<KEYWORD1>", "<KEYWORD2>" ]
+license = "MIT"
+autotests = false
+
+###############################################################################
+[lib]
+name = "cargo-perspective"
+path = "src/lib.rs"
+
+[[test]]
+name = "tests"
+path = "tests/test.rs"
+
+###############################################################################
+[dependencies]
